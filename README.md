@@ -1,7 +1,7 @@
 # Desafio 02: Clonando o layout do youtube.
 
 Realizei o desafio proposto pela Michele Ambrosio, através do curso de CSS Web Developer da DIO.me, de clonar o layout do YouTube com CSS colocando em prática todos os conceitos aprendidos, principalmente sobre Flexbox.
-Utilizei a refência do figma que ela propôs porém realizei algumas alterações de cor, pois geralmente utilizo no modo escuro e me inspirei no layout do youtube atual.
+Utilizei a referência do figma que ela propôs porém realizei algumas alterações de cor, pois geralmente utilizo no modo escuro e me inspirei no layout do youtube atual.
 
 [Clique aqui](https://joannascm.github.io/trilha-css-desafio-02/) para acessar o meu resultado final do desafio!
 
