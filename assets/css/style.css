@@ -14,21 +14,33 @@ nav {
     height: 56px;
     justify-content: space-between;
 }
-#menu{
+
+#menu, #busca, #perfil{
+    display: flex;
     margin: 16px 24px;
+}
+
+#menu{
+    width: 146px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+button img{
+    width: 24px;
+    height: auto;
+    align-items: center;
+    background-color: transparent;
 }
 
 #icon-youtube img{
     width: 90px;
     height: auto;
-    margin-left: 32px;
 }
 
-#botao-menu, #publicacao, #notificacao, button img{
-    width: 24px;
-    height: auto;
-    align-items: center;
-    background-color: transparent;
+#busca{
+    width: 415px;
+    height: 37px;
 }
 
 #busca input{
@@ -40,28 +52,19 @@ nav {
     color: white;
 }
 
-#busca button {
-    position: relative;
-    top: 5px;
-    left: -5px;
+#busca button {   
     background-color: #3a3a3a;
     width: 45px;
     padding-right: 5px;
-    height: 36.2px;
+    height: 37px;
     border: 1px solid #575757;
     border-radius: 0px 40px 40px 0px;
 }
 
-#busca{
-    padding: 3px;
-}
-
 #perfil {
-    display: flex;
     width: 150px;
     height: 34px;
     justify-content:space-around;
-    margin: 14px 24px;
 }
 
 #perfil-pessoal img{
@@ -72,20 +75,21 @@ nav {
 main{
     display: flex;
     margin: 20px 50px ;
-    gap: 25px;
+    gap: 50px;
 }
+
 #escopo-principal{
     display: flex;
     width: 952px;
     flex-direction: column;
-    /*margin: 15px 50px;*/
     gap: 15px;
 }
+
 iframe {
     border-radius: 10px;
     box-shadow: 0 0 40px #64626286;
-    
 }
+
 #titulo-video{
     color: white;
     font-weight:600;
@@ -181,5 +185,4 @@ iframe {
     width: auto;
     height: 90px;
     border-radius: 10px;
-    
 }
